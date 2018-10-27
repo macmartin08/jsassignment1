@@ -1,0 +1,70 @@
+/* Step 1 - Add a nice background */
+body {
+  background-color: black;
+}
+
+/* Step 2 - Add a nice card style */
+.card {
+	display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3em;
+  height: 4.5em;
+  font-size: 2em;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin: 10px;
+  color: #2c3e50;
+  transition: 0.5s;
+  background-color: #ecf0f1;
+  text-indent: -9999px;
+  -webkit-transform: rotateY( 180deg );
+            transform: rotateY( 180deg );  
+
+}
+
+/* Step 3 - Add a nice hover effect */
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+/* Step 4 (+4 points) - Write a style for a flipped card */
+.flipped {
+  -webkit-transform: rotate( 0deg );
+  transform: rotate( 0deg );
+  text-indent: 9px;
+  height: 4.5em;
+  width: 3em;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 32px;
+  border-radius: 5px;  
+}
+
+/* Step 5 - Add a nice style to the message element */
+#message {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+
+}
+
+/* Step 6 - Add 5 more style changes... */
+#reset{
+  margin-left: 600px;
+  background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* 2) */
+/* 3) */
+/* 4) */
+/* 5) */
